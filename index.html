@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Nepal-Watch TV Shows Online, Watch Movies Online</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+       <header>
+        <nav class="navbar">
+            <div class="navbar_brand">
+              <img src="images/logo.png" alt="netflix logo" class="logo">
+            </div>
+            <div class="navbar_nav_items">
+              <div class="nav-item1">
+               <div class="dropdown_container">
+                <i class="ri-global-line"></i>
+                <select name="language" id="languageSelect" class="language-dropdown">
+                  <option value="english" selected>English</option>
+                  <option value="french">French</option>
+                </select>
+               </div>
+              </div>
+              <div class="nav-item2">
+                <button class="signIn">Sign In</button>
+              </div> 
+            </div>
+          </nav>  
+       </header>
+       <main>
+        <section class="hero">
+            <div class="hero-bg-image-container">
+                <img src="images/netflix background.jpg" alt="hero image" class="hero-bg-image"/>
+            </div>
+            <div class="hero-bg-overlay"></div>
+            
+                <div class="header-content">
+                  <h1>Unlimited movies, TV <br> shows, and more</h1>
+                  <h3>Starts at USD 2.99. Cancel anytime.</h3>
+                  <p>Ready to watch? Enter your email to create or restart your membership.</p>
+                  <div class="email_form_container">
+                    <div class="form_container">
+                      <input type="email" class="email_input" placeholder=" ">
+                      <label class="email_label">Email Address</label>
+                    </div>
+                    <button class="primary_button">Get Started <i class="ri-arrow-right-s-line"></i></i></i></button>
+                  </div>
+                </div>
+        </section>
+        <div class="arc-line"></div>
+        <div class="body">
+            <h2>Trending Now</h2>
+            <div class="Movies">
+              <select name="Film" id="MovieSelect" class="movie-b">
+                <option value="mov" selected> Movies-English <i class="ri-arrow-down-s-fill"></i></option>
+                <option value="2">Movies-Other Langauges</option>
+                <option value="3">TV Shows-English</option>
+                <option value="4">TV Shows-Other Langauges</option>
+                </select>
+            </div>
+            <div class="movie-container">
+              <div class="movies">
+                <div class="movie" data-number="1">
+                  <img src="https://m.media-amazon.com/images/M/MV5BNTZmODA3MmYtNjlhMC00YWQ3LTkyYzQtNzc0ZmQwYTY1MWYyXkEyXkFqcGdeQXVyMDc5ODIzMw@@._V1_.jpg" alt="Movie 1">
+                  <div class="recently-added">Recently Added</div>
+                </div>
+                <div class="movie" data-number="2">
+                  <img src="https://upload.wikimedia.org/wikipedia/en/8/8e/The_Last_Airbender_Poster.png" alt="Movie 2">
+                  <div class="recently-added">Recently Added</div>
+                </div>
+                <div class="movie" data-number="3">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6lKKFjyUcuM5NqlQwngbJYDMMVetRjeM8Jw&usqp=CAU" alt="Movie 3">
+                </div>
+                <div class="movie" data-number="4">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRl9R0Lay9caOzsdRnFy-aIaudLQar2loBhCg&usqp=CAU" alt="Movie 4">
+                </div>
+                <div class="movie" data-number="5">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToeDle-SnUXU4rhaxUBemjA8H3fLwUv-ZW1g&usqp=CAU" alt="Movie 5">
+                  <div class="recently-added">Recently Added</div>
+                </div>
+              </div>
+            </div>
+            <div class="reason">
+                <h2>More Reasons to Join</h2>
+                <div class="row">
+                  <div class="block">
+                    <h2>Enjoy on your TV</h2>
+                    <h4>Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more. <i class="ri-tv-2-line"></i></h4>
+                  </div>
+                  <div class="block">
+                    <h2>Download your shows to watch offline</h2>
+                    <h4>Save your favorites easily and always have something to watch.<i class="ri-install-line"></i></h4>
+                  </div>
+                  <div class="block">
+                    <h2>Watch everywhere</h2>
+                    <h4>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.<i class="ri-spy-line"></i></h4>
+                  </div>
+                  <div class="block">
+                    <h2>Create profiles for kids</h2>
+                    <h4>Send kids on adventures with their favorite characters in a space made just for them — free with your membership.<i class="ri-bear-smile-line"></i></h4>
+                  </div>
+                </div>
+                <!-- <div class="faq">
+                    <h2>Frequently Asked Questions</h2>
+                    <ul class="accordion">
+                      <li>
+                        <input type="radio" name="accordion" id="first">
+                        <label for="first">What is Netflix?</label>
+                        <div class="content">
+                          <p>Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.You can watch as much as you want, whenever you want without a single commercial – all for one low monthly price. There's always something new to discover and new TV shows and movies are added every week!
+                          </p>
+                        </div>
+                      </li>
+                      <li>
+                        <input type="radio" name="accordion" id="second">
+                        <label for="second">How much does Netflix cost?</label>
+                        <div class="content">
+                          <p>Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed monthly fee. Plans range from USD 9.99 to USD 2.99 a month. No extra costs, no contracts.
+                          </p>
+                        </div>
+                      </li>
+                      <li>
+                        <input type="radio" name="accordion" id="third">
+                        <label for="third">Where can I watch?</label>
+                        <div class="content">
+                          <p>Watch anywhere, anytime. Sign in with your Netflix account to watch instantly on the web at netflix.com from your personal computer or on any internet-connected device that offers the Netflix app, including smart TVs, smartphones, tablets, streaming media players and game consoles.
+                          </p>
+                        </div>
+                      </li>
+                      <li>
+                        <input type="radio" name="accordion" id="fourth">
+                        <label for="fourth">How do I cancel?</label>
+                        <div class="content">
+                          <p>Netflix is flexible. There are no pesky contracts and no commitments. You can easily cancel your account online in two clicks. There are no cancellation fees – start or stop your account anytime.
+                        </div>
+                      </li>
+                      <li>
+                        <input type="radio" name="accordion" id="fivth">
+                        <label for="fivth">What can I watch on Netflix?</label>
+                        <div class="content">
+                          <p>Netflix has an extensive library of feature films, documentaries, TV shows, anime, award-winning Netflix originals, and more. Watch as much as you want, anytime you want.
+                        </div>
+                      </li>
+                      <li>
+                        <input type="radio" name="accordion" id="sixth">
+                        <label for="sixth"> Is Netflix good for kids?</label>
+                        <div class="content">
+                          <p>The Netflix Kids experience is included in your membership to give parents control while kids enjoy family-friendly TV shows and movies in their own space.
+                        </div>
+                      </li>
+                    </ul>
+                    <small>Ready to watch? Enter your email to create or restart your membership.</small>
+                    <div class="email_form_container">
+                        <div class="form_container">
+                          <input type="email" class="email_input" placeholder=" ">
+                          <label class="email_label">Email Address</label>
+                        </div>
+                        <button class="primary_button ">Get Started <i class="ri-arrow-right-s-line"></i></i></i></button>
+                      </div>
+                    </div>
+              </div> -->
+              <section class="FAQ_list_container">
+                    <h1 class="FAQ_heading">Frequently Asked Question</h1>
+                    <div class="FAQ_list">
+                        <div class="FAQ_accordion">
+                            <button class="FAQ_title">What is Netflix?<i class="ri-add-line"></i></button>
+                            <div class="FAQ_visible FAQ_closed">
+                                <p>
+                                    Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.You can watch as much as you want, whenever you want without a single commercial – all for one low monthly price. There's always something new to discover and new TV shows and movies are added every week! 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+              </section>
+
+
+
+              <div class="footer">
+                <a href="#" class="contact">Question?Contact Us</a>
+                
+                <div class="row">
+                  <div class="col">
+                    <a href="#">FAQ</a>
+                    <a href="#">Investor Relations</a>
+                    <a href="#">Privacy</a>
+                    <a href="#">Speed Test</a>
+                  </div>
+                  <div class="col">
+                    <a href="#">Help Center</a>
+                    <a href="#">Jobs</a>
+                    <a href="#">Cookies</a>
+                    <a href="#">Legal Notices</a>
+                  </div>
+                  <div class="col">
+                    <a href="#">Accounts</a>
+                    <a href="#">Ways to watch</a>
+                    <a href="#">Corporate Information</a>
+                    <a href="#">Only on Netflix</a>
+                  </div>
+                  <div class="col">
+                    <a href="#">Media Centre</a>
+                    <a href="#">Terms of Use</a>
+                    <a href="#">Contact Us</a>
+                  </div>
+                </div>
+                <div class="nav-item1">
+                  <i class="ri-global-line"></i>
+                <select name="language" id="languageSelect" class="language-dropdown">
+                  <option value="english" selected>English</option>
+                  <option value="french">French</option>
+                </select>
+                </div>
+                <h4>Netflix Nepal</h4>
+              </div>
+       </main>
+       <script src="src/index.js"></script>
+</body>
+</html>
